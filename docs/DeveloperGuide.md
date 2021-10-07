@@ -258,10 +258,10 @@ _{Explain here how the data archiving feature will be implemented}_
 **Target user profile**:
 
 This product is for CS2103/T TAs who are:
-* Familiar with command line and code 
-* Worried about using too many applications to manage his students' projects and grades. 
-* Able to tolerate a steep learning curve 
-* Disorganized, forgetful 
+* Familiar with command line and code
+* Worried about using too many applications to manage his students' projects and grades.
+* Able to tolerate a steep learning curve
+* Disorganized, forgetful
 * Busy with other school projects and modules
 
 
@@ -326,7 +326,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 **MSS**
 
-1.  User requests to go back to the welcome page to choose either students or tasks directory again. 
+1.  User requests to go back to the welcome page to choose either students or tasks directory again.
 2.  tApp navigates into the welcome page and displays the exit confirm message.
 
     Use case ends.
@@ -389,12 +389,12 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 **Extensions**
 
-* 2a. The student list is empty. 
-    
+* 2a. The student list is empty.
+
   Use case ends.
 
 * 2b. User requests to mark a specific person as absent in the list.
-  
+
     * 2b1. tApp marks the person as absent.
 
       Use case ends.
@@ -484,7 +484,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 **Extensions**
 
 * 2a. The list is empty.
-  
+
   Use case ends.
 
 * 3a. The given index is invalid.
@@ -510,7 +510,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
       Use case ends.
 
 * 3a. The given index is invalid.
-  
+
     * 3a1.  tApp shows an error message.
 
       Use case ends.
@@ -519,8 +519,8 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 * Should work on any _mainstream OS_ as long as it has Java `11` or above installed.
 * Should be able to hold up to 1000 persons without a noticeable sluggishness in performance for typical usage.
 * A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.
-* Commands used should be intuitive, and should not exceed 80 characters. 
-* System should respond almost immediately upon entering a command. 
+* Commands used should be intuitive, and should not exceed 80 characters.
+* System should respond almost immediately upon entering a command.
 * Error messages shown should inform the user of what is wrong and what the correct command syntax should be.
 
 
@@ -528,7 +528,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 * **Mainstream OS**: Windows, Linux, Unix, OS-X
 * **Student contact**: A student entry with the corresponding student’s name, tutorial attendance, and tutorial participation.
-* **Task**: An entry with a textual description of a piece of work to do, and a time that specifies the date that piece of work should be completed by 
+* **Task**: An entry with a textual description of a piece of work to do, and a time that specifies the date that piece of work should be completed by
 * **Directory**: The list commands entered will be applied to (either student or task)
 
 --------------------------------------------------------------------------------------------------------------------

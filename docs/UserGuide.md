@@ -137,7 +137,7 @@ Sample Usage:
     > Kho Tze Jit is marked as present for week 1!
 
 `> mark 1 /w1`
-    
+
     > Kho Tze Jit is marked as absent for week 1!
 
 ### Deleting a student contact: `delete INDEX`
@@ -228,7 +228,7 @@ Examples:
 * `find John` returns `john` and `John Doe`
 * `find alex david` returns `Alex Yeoh`, `David Li`<br>
   ![result for 'find alex david'](images/findAlexDavidResult.png)
-  
+
 [comment]: <> (TODO)
 ### Clearing all entries from task list : `clear` `[coming in v1.3]`
 

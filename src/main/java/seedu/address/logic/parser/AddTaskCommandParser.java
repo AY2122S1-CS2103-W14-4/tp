@@ -31,7 +31,7 @@ public class AddTaskCommandParser implements Parser<AddTaskCommand> {
         TaskName name = ParserUtil.parseTaskName(argMultimap.getValue(PREFIX_NAME).get());
         Deadline deadline = ParserUtil.parseDeadline(argMultimap.getValue(PREFIX_DEADLINE).get());
         Set<Tag> tagList = ParserUtil.parseTags(argMultimap.getAllValues(PREFIX_TAG));
-        
+
 
         Task task = new Task(name, deadline, tagList);
 

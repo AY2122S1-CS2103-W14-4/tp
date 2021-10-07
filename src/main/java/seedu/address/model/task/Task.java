@@ -35,7 +35,7 @@ public class Task {
     public Deadline getDeadline() {
         return deadline;
     }
-    
+
     public String getStatus() {
         return this.isDone ? "Completed" : "Pending";
     }
