@@ -21,18 +21,20 @@ public class JsonAdaptedTask {
     private final String name;
     private final String deadline;
     private final List<JsonAdaptedTag> tagged = new ArrayList<>();
+    private final String status;
 
     /**
      * Constructs a {@code JsonAdaptedTask} with the given task details.
      */
     @JsonCreator
     public JsonAdaptedTask(@JsonProperty("name") String name, @JsonProperty("deadline") String deadline,
-                             @JsonProperty("tagged") List<JsonAdaptedTag> tagged) {
+                             @JsonProperty("tagged") List<JsonAdaptedTag> tagged, @JsonProperty("name") String status) {
         this.name = name;
         this.deadline = deadline;
         if (tagged != null) {
             this.tagged.addAll(tagged);
         }
+        this.status = status;
     }
 
     /**
@@ -44,6 +46,7 @@ public class JsonAdaptedTask {
         tagged.addAll(source.getTags().stream()
                 .map(JsonAdaptedTag::new)
                 .collect(Collectors.toList()));
+        status = source.getStatus();
     }
 
     /**
