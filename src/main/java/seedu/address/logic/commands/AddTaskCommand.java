@@ -19,8 +19,8 @@ public class AddTaskCommand extends Command {
             + PREFIX_DEADLINE + "DEADLINE "
             + "[" + PREFIX_TAG + "TAG]...\n"
             + "Example: " + COMMAND_WORD + " "
-            + "Tutorial Prep "
-            + PREFIX_TAG + " W14-04";
+            + "n/Tutorial Prep "
+            + PREFIX_DEADLINE + " 2021-09-12";
 
     public static final String MESSAGE_SUCCESS = "New task added: %1$s";
     public static final String MESSAGE_DUPLICATE_TASK = "This task already exists in the tApp";
